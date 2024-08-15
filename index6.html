@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> 
+                    Edit
+                </button>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Register</h4>
+                                <span data-dismiss="modal" class="close">&times;</span>
+                            </div>
+                            <div class="modal-body">
+                                <label style="margin-left: 100px;" for="ru">Name</label>
+                                <input style="border-color: red; active " type="datetime" id="ru">
+                                <p style="color: red; margin-left: 100px">The name field is requied</p>
+                                <br>
+                                <label style="margin-left: 37px;" for="ru">E-Mail Address</label>
+                                <input type="datetime" id="ru">
+                                <br>
+                                <label style="margin-left: 77px;" for="ru">Password</label>
+                                <input style=" border-color: red; active" type="datetime" id="ru">
+                                <br>
+                                <p style="color: red; margin-left: 100px">The password must be at <br> least 8 characters.</p>
+                                <br>
+                                <label style="margin-left: 15px;" for="ru">Confirm Password</label>
+                                <input type="datetime" id="ru">
+                                <br>
+                            </div>
+                            <div class="modal-footer">
+                                <button style="margin-right: 180px;" type="button" class="btn btn-primary" data-dismiss="modal">
+                                    Register
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jQuery.min.js"></script>
+    <script src="js/src/popover.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
